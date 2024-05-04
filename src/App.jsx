@@ -1,0 +1,61 @@
+import { useState, useEffect } from 'react';
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import music from './assets/land.mp3';
+import splash from './assets/eat.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+const LoadingComponent = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
+
+  return (
+    <div className="loading flex justify-center items-center h-screen bg-black">
+      <img src={splash} alt="" data-aos="zoom-in" />
+    </div>
+  );
+};
+
+function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 10000); // Simulating a 10-second loading time
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    // Play the audio when component mounts
+    const audioElement = document.getElementById('backgroundAudio');
+    if (audioElement) {
+      audioElement.play();
+    }
+  }, []);
+
+  return (
+    <>
+      <audio id="backgroundAudio" autoPlay>
+        <source src={music} type="audio/mpeg" />
+      </audio>
+
+      <section className='min-h-screen background-image'>
+        {isLoading && <LoadingComponent />}
+        {!isLoading && (
+          <section>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+            </Routes>
+          </section>
+        )}
+      </section>
+    </>
+  );
+}
+
+export default App;

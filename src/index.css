@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .blinkin-cursor:after{
+        content: "|";
+        @apply text-emerald-300;
+        animation: blink 1s step-start infinite ;
+    }
+
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+}
