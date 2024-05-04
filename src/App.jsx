@@ -30,13 +30,6 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    // Play the audio when component mounts
-    const audioElement = document.getElementById('backgroundAudio');
-    if (audioElement) {
-      audioElement.play();
-    }
-  }, []);
 
   return (
     <>
