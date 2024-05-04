@@ -4,6 +4,7 @@ import Testimonial from '../components/Testimonial'
 import Services from '../components/Services'
 import Prices from '../components/Prices'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer';
 
 const Homepage = () => {
 
@@ -54,6 +55,7 @@ const Homepage = () => {
         <div ref={overviewRef2}>
         <Prices/>
         </div>
+        <Footer/>
       
     </div>
   )

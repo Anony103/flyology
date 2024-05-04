@@ -1,29 +1,31 @@
 import React, { useEffect, useState } from 'react';
-import videoBg from '../assets/land.mp4'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import videoBg from '../assets/landTrim.gif'; // Make sure the path is correct
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HeroBanner = () => {
   const [text, setText] = useState('');
   const words = ["We ", "develop ", "✨ ", "amazing ", "websites ", "for ", "your ", "business "];
 
   useEffect(() => {
-      let currentIndex = words[0].slice(0, text.length + 1);
-    if(currentIndex === text) return
-        const interval = setInterval(() => {
-        setText(words.slice(0, text.length + 1));
-      },300)
+    let currentIndex = words[0].slice(0, text.length + 1);
+    if(currentIndex === text) return;
+    
+    const interval = setInterval(() => {
+      setText(words.slice(0, text.length + 1));
+    }, 300);
 
-      return () => clearInterval(interval)
-    }, [text]);
+    return () => clearInterval(interval);
+  }, [text]);
 
-    useEffect(()=>{
-      AOS.init({duration:1200})
-  })
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []); // Make sure to add empty dependency array to run once on component mount
 
   return (
-    <section className="w-full h-screen px-2" >
-      <video src={videoBg} autoPlay loop muted className='w-full h-full object-cover'/>
+    <section className="w-full h-screen px-2">
+      {/* Use video tag instead of img tag */}
+      <img src={videoBg} className='w-full h-full object-cover' />
     </section>
   );
 };
