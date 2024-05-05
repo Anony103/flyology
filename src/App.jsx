@@ -37,10 +37,10 @@ function App() {
         <source src={music} type="audio/mpeg" />
       </audio>
 
-      <section className='min-h-screen background-image'>
+      <section className='min-h-screen bg-black'>
         {isLoading && <LoadingComponent />}
         {!isLoading && (
-          <section>
+          <section className='px-10 md:max-w-screen-xl md:mx-auto md:px-4'>
             <Routes>
               <Route path="/" element={<Homepage />} />
             </Routes>

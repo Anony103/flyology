@@ -8,6 +8,8 @@ export default {
     fontFamily: {
       'karla': ['Karla', 'sans-serif'],
       'markazi': ['Markazi Text', 'serif'],
+      'Rubik':["Rubik Storm, system-ui"],
+      'Grechen':["Grechen Fuemen, cursive"]
     },
     extend: {},
   },

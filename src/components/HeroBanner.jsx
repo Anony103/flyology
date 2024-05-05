@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import videoBg from '../assets/landTrim.gif'; // Make sure the path is correct
+import videoBg from '../assets/landTrim.gif'; 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,9 +23,9 @@ const HeroBanner = () => {
   }, []); // Make sure to add empty dependency array to run once on component mount
 
   return (
-    <section className="w-full h-screen px-2">
+    <section className="w-full  md:h-screen px-2">
       {/* Use video tag instead of img tag */}
-      <img src={videoBg} className='w-full h-full object-cover' />
+      <img src={videoBg} className='w-full h-96 md:h-full object-cover' />
     </section>
   );
 };

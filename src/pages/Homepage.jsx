@@ -46,9 +46,9 @@ const Homepage = () => {
         scroll3={scrollToOverview3}
         />
         <HeroBanner/>
-        <div ref={overviewRef}>
+        {/* <div ref={overviewRef}>
         <Services/>
-        </div>
+        </div> */}
         <div ref={overviewRef1}>
         <Testimonial/>
         </div>

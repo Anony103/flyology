@@ -107,3 +107,30 @@ export const services = [
         desc:"Don't just guess - know. Our analytics and reporting services provide invaluable insights into your marketing efforts, empowering you to make data-driven decisions and maximize your ROI.",
     }
 ]
+
+export const princing = [
+    {
+        id:1,
+        color:"text-red-700",
+        title:"FRESHMAN",
+        list:["EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE"],
+    },
+    {
+        id:2,
+        color:"text-yellow-300",
+        title:"SOAIMORE",
+        list:["EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE"],
+    },
+    {
+        id:3,
+        color:"text-blue-600",
+        title:"JUNIOR",
+        list:["EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE"],
+    },
+    {
+        id:4,
+        color:"text-green-600",
+        title:"SENIOR",
+        list:["EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE","EXAMPLE"],
+    },
+]
