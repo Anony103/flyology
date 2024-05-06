@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
-import reactLogo from '../assets/logo.png';
-import facebook from '../assets/service2.svg';
-import x from '../assets/twitter.svg';
-import instagram from '../assets/instagram.svg';
-
-
-
+import React from 'react';
+import fly from '../assets/fly.png';
+import book from '../assets/book.png';
 
 const Footer = () => {
   return (
-    
-    <footer className="flex flex-col md:flex-row justify-center items-center pb-28 px-4">
-      <h2 className="text-emerald-800 font-bold text-markazi">THE FLY SHOP</h2>
+    <footer className="flex flex-col justify-center items-center px-4">
+      <div>
+        <h2 className="text-green-600 text-center font-bold text-3xl text-markazi">THE FLY SHOP</h2>
+      </div>
+      <div className='flex gap-4 md:gap-20'>
+        <img src={fly} alt="Fly" />
+        <img src={book} alt="Book" />
+      </div>
     </footer>
   );
 };

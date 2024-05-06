@@ -39,7 +39,7 @@ function App() {
       </audio>
 
       <section
-        className="min-h-screen background bg-cover md:bg-cover bg-no-repeat"
+        className="min-h-screen background bg-cover bg-no-repeat bg-center"
       >
         {isLoading && <LoadingComponent />}
         {!isLoading && (
