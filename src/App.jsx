@@ -12,6 +12,8 @@ const LoadingComponent = () => {
     AOS.init({ duration: 1200 });
   }, []);
 
+  
+
   return (
     <div className="loading flex justify-center items-center h-screen bg-black">
       <img src={splash} alt="" data-aos="zoom-in" />
