@@ -9,7 +9,8 @@ export default {
       'karla': ['Karla', 'sans-serif'],
       'markazi': ['Markazi Text', 'serif'],
       'Rubik':["Rubik Storm, system-ui"],
-      'Grechen':["Grechen Fuemen, cursive"]
+      'Grechen':["Grechen Fuemen, cursive"],
+      "IM":[ "IM Fell Double Pica, serif"]
     },
     extend: {},
   },

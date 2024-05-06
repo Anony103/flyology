@@ -25,7 +25,7 @@ const HeroBanner = () => {
   return (
     <section className="w-full  md:h-screen px-2">
       {/* Use video tag instead of img tag */}
-      <img src={videoBg} className='w-full h-96 md:h-full object-cover' />
+      <img src={videoBg} className='w-full h-72 md:h-4/6 object-cover' />
     </section>
   );
 };
