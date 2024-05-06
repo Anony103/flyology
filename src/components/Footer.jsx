@@ -12,7 +12,7 @@ const Footer = () => {
         <img src={fly} alt="Fly" />
         <img src={book} alt="Book" />
       </div>
-      <div className='text-white mt-2 mb-4'><span><>&#169;</> copyright FLYOLOGY UNIV.</span></div>
+      <div className='text-white mt-2 mb-4'><span><>&#169;</> copyright FLYOLOGY 2024</span></div>
     </footer>
   );
 };
