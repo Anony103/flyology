@@ -23,8 +23,7 @@ const HeroBanner = () => {
   }, []); // Make sure to add empty dependency array to run once on component mount
 
   return (
-    <section className="w-full  md:h-screen px-2">
-      {/* Use video tag instead of img tag */}
+    <section className="w-full px-2">
       <img src={videoBg} className='w-full h-72 md:h-4/6 object-cover' />
     </section>
   );

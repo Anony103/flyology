@@ -20,8 +20,8 @@ const Testimonial = () => {
   };
 
   return (
-    <section className=''>
-    <section className="md:px-4 py-8 md:px-8 lg:px-16 xl:px-20" data-aos="zoom-in">
+    <section className='md:max-w-screen-xl md:mx-auto md:px-4'>
+    <section className="md:px-4 py-8 md:px-8 lg:px-16 xl:px-20 md:mt-16" data-aos="zoom-in">
       <div className="max-w-6xl mx-auto">
         <div className="text-center">
           <h6 className="font-Rubik text-2xl md:text-5xl text-white">TESTIMONIALS</h6>
