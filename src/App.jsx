@@ -6,7 +6,6 @@ import music from './assets/land.mp3';
 import splash from './assets/eat.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import background from './assets/backgroundImage.png'
 
 const LoadingComponent = () => {
   useEffect(() => {
@@ -31,17 +30,18 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-
   return (
     <>
       <audio id="backgroundAudio" autoPlay>
         <source src={music} type="audio/mpeg" />
       </audio>
 
-      <section className='min-h-screen ' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
+      <section
+        className="min-h-screen background bg-cover md:bg-cover bg-no-repeat"
+      >
         {isLoading && <LoadingComponent />}
         {!isLoading && (
-          <section className='px-10 md:max-w-screen-xl md:mx-auto md:px-4'>
+          <section className="px-10 md:max-w-screen-xl md:mx-auto md:px-4">
             <Routes>
               <Route path="/" element={<Homepage />} />
             </Routes>

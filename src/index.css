@@ -10,13 +10,9 @@
     }
 
     .background {
-        background-image: url('../assets/backgroundImage.jpg');
-        /* Adjust background properties as needed */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        /* Add other background properties if necessary */
+        background-image: url('./assets/backgroundImage.png');
     }
+
 
     @keyframes blink {
         50% {

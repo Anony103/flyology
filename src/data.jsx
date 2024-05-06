@@ -16,49 +16,49 @@ export const testimonial = [
     {
         id:1,
         img:userOne,
-        user:'Nitish Rajput',
-        job:'Founder, iAcademy',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        user:'John Doe',
+        job:'CEO of XYZ Corporation',
+        desc:"Our partnership with Flyology has been transformative. Their innovative strategies and precise execution helped us surpass our marketing goals. The team's dedication and expertise have undoubtedly contributed to our company's success.",
         
     },
     {
         id:2,
         img:user2,
-        user:'jabari thomas',
-        job:'Founder, iAcademy',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        user:'Jane Smith',
+        job:'Founder of ABC Startup',
+        desc:"Working with Flyology was a game-changer for our startup. Their tailored approach to our unique challenges resulted in a significant boost in brand visibility and customer engagement. Their commitment to our success is evident in the exceptional results we've achieved together.",
         
     },
     {
         id:3,
         img:user3,
-        user:'laurent jones',
-        job:'Founder, iAcademy',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        user:'David Johnson',
+        job:'Marketing Director at PQR Enterprises',
+        desc:"I can't recommend FLYOLOGY highly enough. Their team's depth of knowledge in digital marketing is unparalleled. From crafting compelling content to optimizing our online presence, they consistently deliver exceptional results. Our partnership has been instrumental in driving our company's growth.",
         
     },
     {
         id:4,
         img:user4,
-        user:'jamal long',
-        job:'Founder, iAcademy',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        user:'Emily Williams',
+        job:'CMO of DEF Corporation',
+        desc:"FLYOLOGY exceeded our expectations in every aspect. Their strategic insights and creative campaigns have strengthened our brand positioning and increased our market share. Their proactive communication and dedication to our success make them a valued partner in our marketing efforts.",
         
     },
     {
         id:5,
         img:userOne,
-        user:'john fish',
-        job:'Founder, iAcademy',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        user:'Michael Brown',
+        job:'Vice President of Marketing at LMN Inc.',
+        desc:"Choosing FLYOLOGY was one of the best decisions we've made for our marketing initiatives. Their data-driven approach and attention to detail have helped us achieve remarkable ROI on our advertising spend. Their team's professionalism and responsiveness make collaboration effortless and enjoyable.",
         
     },
     {
         id:6,
         img:userOne,
-        user:'racheal job',
-        job:'Founder, iAcademy',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        user:'Sarah Miller',
+        job:'Marketing Manager at GHI Corporation',
+        desc:"Partnering with FLYOLOGY has been instrumental in revitalizing our marketing strategy. Their comprehensive understanding of our industry combined with their innovative ideas have revitalized our brand and re-engaged our target audience. I'm continually impressed by their creativity and commitment to our success.",
         
     }
 ]
