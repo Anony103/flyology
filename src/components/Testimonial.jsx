@@ -20,21 +20,21 @@ const Testimonial = () => {
   };
 
   return (
-    <section className='max-w-screen-xl mx-auto px-4'>
-    <section className="px-4 py-8 md:px-8 lg:px-16 xl:px-20" data-aos="zoom-in">
+    <section className=''>
+    <section className="md:px-4 py-8 md:px-8 lg:px-16 xl:px-20" data-aos="zoom-in">
       <div className="max-w-6xl mx-auto">
         <div className="text-center">
           <h6 className="font-Rubik text-2xl md:text-5xl text-white">TESTIMONIALS</h6>
         </div>
         {testimonial.map((item, index) => index === current && (
-          <div key={index} className="flex flex-col items-center justify-center md:flex-row gap-4 mt-12 text-white" data-aos="flip-left">
-            <button type='button' onClick={prev} className='p-6 border-4 border-emerald-100 rounded-xl hover:bg-emerald-800 hover:text-white'>
+          <div key={index} className="flex items-center justify-center flex-row gap-2 md:gap-4 mt-12 text-white" data-aos="flip-left">
+            <button type='button' onClick={prev} className='p-2 md:p-6 border-4 border-emerald-100 rounded-xl hover:bg-emerald-800 hover:text-white'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
               </svg>
             </button>
             <div className="flex flex-col items-center text-center md:items-start md:text-left">
-              <p className="text-lg font-karla text-gray-100 leading-relaxed">{item.desc}</p>
+              <p className="md:text-lg font-karla text-gray-100 leading-relaxed">{item.desc}</p>
               <div className="mt-8 flex items-center">
                 <img src={item.img} alt="Client" className="w-16 h-16 rounded-full" />
                 <div className="ml-4">
@@ -43,7 +43,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <button type='button' onClick={next} className='p-6 border-4 border-emerald-100 rounded-xl hover:bg-emerald-800 hover:text-white'>
+            <button type='button' onClick={next} className='p-2 md:p-6 border-4 border-emerald-100 rounded-xl hover:bg-emerald-800 hover:text-white'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
               </svg>
