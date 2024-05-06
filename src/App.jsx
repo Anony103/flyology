@@ -43,7 +43,7 @@ function App() {
       >
         {isLoading && <LoadingComponent />}
         {!isLoading && (
-          <section className="px-10 md:max-w-screen-xl md:mx-auto md:px-4">
+          <section className="px-2 md:max-w-screen-xl md:mx-auto md:px-4">
             <Routes>
               <Route path="/" element={<Homepage />} />
             </Routes>
