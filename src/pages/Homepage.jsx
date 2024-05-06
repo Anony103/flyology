@@ -38,7 +38,7 @@ const Homepage = () => {
   };
 
   return (
-    <div>
+    <div className='background'>
         <Navbar
         scroll={scrollToOverview}
         scroll1={scrollToOverview1}

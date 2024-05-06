@@ -20,7 +20,7 @@ const Prices = () => {
                 <h2 className="font-Grechen font-bold text-xl text-center text-white">PACKAGE</h2>
                 </section>
 
-                <ul className='border-r-4 border-gray-100 p-4'>
+                <ul className='border-r-4 border-gray-100 md:p-4 flex flex-col items-center justify-center'>
                     {item.list.map((items,index)=>
                     <li className='flex gap-2' key={index}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-emerald-800">
