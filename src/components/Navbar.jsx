@@ -68,7 +68,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='flex items-center justify-center py-8'>
-      <h1 className='font-Rubik text-4xl  lg:text-[140px] md:text-7xl text-white'>FLYOLOGY UNIV.</h1>
+      <h1 className='font-chalk text-4xl  lg:text-[140px] md:text-7xl text-white'>FLYOLOGY UNIV.</h1>
     </div>
   )
 }

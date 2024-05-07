@@ -10,7 +10,8 @@ export default {
       'markazi': ['Markazi Text', 'serif'],
       'Rubik':["Rubik Storm, system-ui"],
       'Grechen':["Grechen Fuemen, cursive"],
-      "IM":[ "IM Fell Double Pica, serif"]
+      "IM":[ "IM Fell Double Pica, serif"],
+      "chalk":["Chalk Stick","serif"]
     },
     extend: {},
   },

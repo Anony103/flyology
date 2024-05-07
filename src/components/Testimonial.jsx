@@ -24,7 +24,7 @@ const Testimonial = () => {
     <section className="md:px-4 py-8 md:px-8 lg:px-16 xl:px-20 md:mt-16" data-aos="zoom-in">
       <div className="max-w-6xl mx-auto">
         <div className="text-center">
-          <h6 className="font-Rubik text-2xl md:text-5xl text-white">TESTIMONIALS</h6>
+          <h6 className="font-chalk text-2xl md:text-5xl text-white">TESTIMONIALS</h6>
         </div>
         {testimonial.map((item, index) => index === current && (
           <div key={index} className="flex items-center justify-center flex-row gap-2 md:gap-4 mt-12 text-white" data-aos="flip-left">

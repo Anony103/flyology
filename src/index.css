@@ -19,6 +19,11 @@
         }
       }
 
+      @font-face {
+        font-family: 'Chalk Stick';
+        src: url('./assets/fonts/ChalkStick.otf') format('truetype');
+      }
+
 
     @keyframes blink {
         50% {

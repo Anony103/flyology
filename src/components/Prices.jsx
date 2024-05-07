@@ -16,8 +16,8 @@ const Prices = () => {
             {princing.map((item,index)=>(
             <section key={item.id} className='flex flex-col mt-12 max-w-sm gap-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:opacity-90 hover:scale-105  hover:text-black' >
                 <section>
-                <h1 className={`font-Grechen text-md md:text-2xl font-bold text-center ${item.color}`}>{item.title}</h1>
-                <h2 className="font-Grechen font-bold text-md md:text-xl text-center text-white">PACKAGE</h2>
+                <h1 className={`font-chalk text-md md:text-3xl font-bold text-center ${item.color}`}>{item.title}</h1>
+                <h2 className="font-chalk font-bold text-md md:text-3xl text-center text-white">PACKAGE</h2>
                 </section>
 
                 <ul className='border-r-4 border-gray-100 md:p-4 flex flex-col items-center justify-center'>
